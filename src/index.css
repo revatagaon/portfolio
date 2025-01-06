@@ -1,0 +1,102 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Fira Code (Variable Font) */
+@font-face {
+  font-family: 'Fira Code';
+  src: url('../src/assets/fonts/Fira_Code/FiraCode-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900; /* This specifies the range of weights available for the variable font */
+  font-style: normal;
+}
+
+/* Fira Code Regular */
+@font-face {
+  font-family: 'Fira Code';
+  src: url('../src/assets/fonts/Fira_Code/static/FiraCode-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Fira Code Bold */
+@font-face {
+  font-family: 'Fira Code';
+  src: url('../src/assets/fonts/Fira_Code/static/FiraCode-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* Fira Code Light */
+@font-face {
+  font-family: 'Fira Code';
+  src: url('../src/assets/fonts/Fira_Code/static/FiraCode-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* Fira Code Medium */
+@font-face {
+  font-family: 'Fira Code';
+  src: url('../src/assets/fonts/Fira_Code/static/FiraCode-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* Fira Code SemiBold */
+@font-face {
+  font-family: 'Fira Code';
+  src: url('../src/assets/fonts/Fira_Code/static/FiraCode-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+/* PT Serif Regular */
+@font-face {
+  font-family: 'PT Serif';
+  src: url('../src/assets/fonts/PT_Serif/PTSerif-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* PT Serif Bold */
+@font-face {
+  font-family: 'PT Serif';
+  src: url('../src/assets/fonts/PT_Serif/PTSerif-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* PT Serif Italic */
+@font-face {
+  font-family: 'PT Serif';
+  src: url('../src/assets/fonts/PT_Serif/PTSerif-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* PT Serif Bold Italic */
+@font-face {
+  font-family: 'PT Serif';
+  src: url('../src/assets/fonts/PT_Serif/PTSerif-BoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* styles.css */
+@layer base {
+  body {
+    font-family: 'Fira Code', monospace;
+    background: #FFFFFF;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+::selection {
+  background-color: #000;
+  color: white;
+}
