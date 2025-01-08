@@ -49,3 +49,27 @@ export const skillsData = [
     skillDesc: "UI/UX design and prototyping with Figma."
   },
 ]
+
+export const contactData = [
+  {
+    contactUniqueId: 0,
+    contactSize: "96",
+    contactIcon: "fluent-mdl2:home",
+    contactName: "Address",
+    contactDesc: "19th Cross, JP Nagar 6th Phase, Bengaluru - 560078"
+  },
+  {
+    contactUniqueId: 1,
+    contactSize: "74",
+    contactIcon: "fluent-mdl2:edit-mail",
+    contactName: "Email",
+    contactDesc: "prvn.gr11@gmail.com"
+  },
+  {
+    contactUniqueId: 2,
+    contactSize: "74",
+    contactIcon: "fluent-mdl2:transfer-call",
+    contactName: "Phone Number",
+    contactDesc: "+91 9620548555"
+  },
+]
