@@ -2,15 +2,15 @@ import { Icon } from "@iconify/react/dist/iconify.js"
 
 const Footer = () => {
   return (
-    <section className="w-full px-6 sm:px-12 md:px-24 lg:px-10 xl:px-52 py-16">
+    <section className="w-full px-4 sm:px-12 md:px-8 lg:px-10 xl:px-52 py-16">
       <hr />
       <div className="flex flex-col sm:flex-row sm:justify-between items-center mt-10">
         <div className="text-center sm:text-left">
-          <h1 className="text-lg sm:text-xl font-medium">2025 ©️ Copy Rights Reserved</h1>
+          <h1 className="text-lg sm:text-sm font-medium">2025 ©️ Copy Rights Reserved</h1>
 
         </div>
         <div className="mt-4 sm:mt-0 text-center sm:text-right">
-          <h1 className="text-lg sm:text-xl font-medium">Let's Connect</h1>
+          <h1 className="text-sm lg:text-lg font-medium mt-6">Let's Connect</h1>
           <ul className="flex justify-center sm:justify-end gap-4 mt-2">
             <li>
               <a href="https://www.instagram.com/follow_reva/" rel="noreferrer" target="_blank">

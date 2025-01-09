@@ -3,7 +3,7 @@ import { skillsData } from "../utils/portfolio-data"
 
 const Skills = () => {
   return (
-    <section className="w-full px-6 sm:px-12 md:px-24 lg:px-10 xl:px-52 py-16" id="skills">
+    <section className="w-full px-4 sm:px-12 md:px-8 lg:px-10 xl:px-52 py-16" id="skills">
       <h6 className="text-gray-500 text-sm font-light tracking-[6px] mb-5">
         WHAT I KNOW!
       </h6>

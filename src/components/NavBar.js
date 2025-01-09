@@ -31,7 +31,7 @@ const NavBar = () => {
   };
 
   return (
-    <nav className="px-4 sm:px-8 md:px-16 lg:px-10 xl:px-52 fixed top-0 w-full mt-8 h-20 z-50 transition-all duration-200 ease-in-out font-pt-serif">
+    <nav className="px-4 sm:px-8 md:px-8 lg:px-10 xl:px-52 fixed top-0 w-full mt-8 h-20 z-50 transition-all duration-200 ease-in-out font-pt-serif">
       <div
         className={`flex justify-between items-center text-base py-4 px-2 rounded-xl 
           ${isScrolled ? 'bg-black text-white shadow-[0px_10px_60px_rgba(0,0,0,0.15),_0px_10px_10px_rgba(0,0,0,0.1)]' :
@@ -69,7 +69,7 @@ const NavBar = () => {
         />
 
         {isMenuOpen && (
-          <div className="absolute top-20 right-0 w-full bg-black text-white p-6 rounded-lg shadow-md md:hidden">
+          <div className="absolute top-20 right-0 w-full bg-black text-white px-4 p-6 rounded-lg shadow-md md:hidden">
             <ul className="flex flex-col gap-6">
               <li onClick={() => { goToSection("about"); setIsMenuOpen(false); }} className="cursor-pointer hover:text-gray-400 transition-colors">
                 About
