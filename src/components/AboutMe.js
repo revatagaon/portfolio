@@ -1,7 +1,7 @@
 const AboutMe = () => {
   return (
     <section
-      className="w-full px-4 sm:px-12 lg:px-10 xl:px-52 2xl:px-52 py-16 md:px-8 xs:mt-64 md:mt-96"
+      className="w-full px-4 sm:px-12 lg:px-10 xl:px-52 2xl:px-52 py-16 md:px-8"
       id="about"
     >
       <h6 className="text-gray-500 text-sm font-light tracking-[6px] mb-5">

@@ -30,13 +30,14 @@ const LandingPage = () => {
 
         <div className="flex flex-col sm:flex-row gap-4 mt-6 w-full">
           <button className="px-4 py-2 w-full sm:w-1/2 md:w-1/2 lg:w-[180px] bg-black text-white font-medium rounded-md border border-transparent hover:bg-white hover:text-black hover:border hover:border-black">
-            Contact Me
+            <a href="https://wa.me/+919620548555?text=Hi, Let's Connect!!!" rel="noreferrer" target="_blank">Contact Me</a>
           </button>
           <button className="px-4 py-2 w-full sm:w-1/2 md:w-1/2 lg:w-[180px] border border-black text-black font-medium rounded-md hover:bg-black hover:text-white hover:border-transparent">
-            Download CV
+            <a href="/Praveen_Revatagaon.pdf" download="Praveen_Revatagaon.pdf" rel="noreferrer" target="_blank">
+              Download CV
+            </a>
           </button>
         </div>
-
       </div>
     </div>
 
