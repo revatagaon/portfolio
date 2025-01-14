@@ -1,3 +1,5 @@
+export const FORM_CARRY_API = "https://formcarry.com/s/0KKFEYhDRqW"
+
 export const skillsData = [
   {
     uniqueId: 0,
