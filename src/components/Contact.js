@@ -86,7 +86,9 @@ const Contact = () => {
                   className="w-[30px] h-[30px] lg:w-16 lg:h-16" />
                 <div className="flex flex-col justify-center">
                   <h1 className="text-sm lg:text-xl">{item.contactName}</h1>
-                  <p className="text-xs lg:text-xl font-semibold">{item.contactDesc}</p>
+                  <p className={`text-xs lg:text-xl font-semibold ${item.contactUniqueId === 1 && 'cursor-pointer'}`}>
+                    {item.contactUniqueId === 1 ?
+                      <a href="mailto:prvn.gr11@gmail.com">{item.contactDesc}</a> : item.contactDesc}</p>
                 </div>
               </div>
             );
